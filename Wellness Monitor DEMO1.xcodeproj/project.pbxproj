@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC43967F1F2110E80062040E /* DoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC43967E1F2110E80062040E /* DoctorViewController.swift */; };
+		BC4C040C1F336BF600CFC865 /* adminWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4C040B1F336BF600CFC865 /* adminWelcomeViewController.swift */; };
+		BC4C040E1F336E7B00CFC865 /* adminDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4C040D1F336E7B00CFC865 /* adminDetailViewController.swift */; };
+		BC609D941F18158E005B1E34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC609D931F18158E005B1E34 /* AppDelegate.swift */; };
+		BC609D961F18158E005B1E34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC609D951F18158E005B1E34 /* ViewController.swift */; };
+		BC609D991F18158E005B1E34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC609D971F18158E005B1E34 /* Main.storyboard */; };
+		BC609D9B1F18158E005B1E34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC609D9A1F18158E005B1E34 /* Assets.xcassets */; };
+		BC609D9E1F18158E005B1E34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC609D9C1F18158E005B1E34 /* LaunchScreen.storyboard */; };
+		BC609DA91F18158E005B1E34 /* Wellness_Monitor_DEMO1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC609DA81F18158E005B1E34 /* Wellness_Monitor_DEMO1Tests.swift */; };
+		BC609DB41F18158E005B1E34 /* Wellness_Monitor_DEMO1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC609DB31F18158E005B1E34 /* Wellness_Monitor_DEMO1UITests.swift */; };
+		BC609DC21F181762005B1E34 /* PatientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC609DC11F181762005B1E34 /* PatientViewController.swift */; };
+		BC6485481F39FD9A00C3C4DB /* adminDetail2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6485471F39FD9A00C3C4DB /* adminDetail2ViewController.swift */; };
+		BC64854A1F3A00EB00C3C4DB /* DoctorDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6485491F3A00EB00C3C4DB /* DoctorDetailViewController.swift */; };
+		BC64854C1F3A190900C3C4DB /* DrakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC64854B1F3A190900C3C4DB /* DrakeViewController.swift */; };
+		BCD575511F3BA49B00BA62B2 /* DoctorDetail2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD575501F3BA49B00BA62B2 /* DoctorDetail2ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC609DA51F18158E005B1E34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC609D881F18158E005B1E34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC609D8F1F18158E005B1E34;
+			remoteInfo = "Wellness Monitor DEMO1";
+		};
+		BC609DB01F18158E005B1E34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC609D881F18158E005B1E34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC609D8F1F18158E005B1E34;
+			remoteInfo = "Wellness Monitor DEMO1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC43967E1F2110E80062040E /* DoctorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorViewController.swift; sourceTree = "<group>"; };
+		BC4396801F21418E0062040E /* Wellness Monitor DEMO1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Wellness Monitor DEMO1.entitlements"; sourceTree = "<group>"; };
+		BC4C040B1F336BF600CFC865 /* adminWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = adminWelcomeViewController.swift; sourceTree = "<group>"; };
+		BC4C040D1F336E7B00CFC865 /* adminDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = adminDetailViewController.swift; sourceTree = "<group>"; };
+		BC609D901F18158E005B1E34 /* Wellness Monitor DEMO1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wellness Monitor DEMO1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC609D931F18158E005B1E34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC609D951F18158E005B1E34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC609D981F18158E005B1E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC609D9A1F18158E005B1E34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC609D9D1F18158E005B1E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC609D9F1F18158E005B1E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC609DA41F18158E005B1E34 /* Wellness Monitor DEMO1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wellness Monitor DEMO1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC609DA81F18158E005B1E34 /* Wellness_Monitor_DEMO1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wellness_Monitor_DEMO1Tests.swift; sourceTree = "<group>"; };
+		BC609DAA1F18158E005B1E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC609DAF1F18158E005B1E34 /* Wellness Monitor DEMO1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wellness Monitor DEMO1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC609DB31F18158E005B1E34 /* Wellness_Monitor_DEMO1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wellness_Monitor_DEMO1UITests.swift; sourceTree = "<group>"; };
+		BC609DB51F18158E005B1E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC609DC11F181762005B1E34 /* PatientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientViewController.swift; sourceTree = "<group>"; };
+		BC6485471F39FD9A00C3C4DB /* adminDetail2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = adminDetail2ViewController.swift; sourceTree = "<group>"; };
+		BC6485491F3A00EB00C3C4DB /* DoctorDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorDetailViewController.swift; sourceTree = "<group>"; };
+		BC64854B1F3A190900C3C4DB /* DrakeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrakeViewController.swift; sourceTree = "<group>"; };
+		BCD575501F3BA49B00BA62B2 /* DoctorDetail2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorDetail2ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC609D8D1F18158E005B1E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC609DA11F18158E005B1E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC609DAC1F18158E005B1E34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC4396811F21423C0062040E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC609D871F18158E005B1E34 = {
+			isa = PBXGroup;
+			children = (
+				BC609D921F18158E005B1E34 /* Wellness Monitor DEMO1 */,
+				BC609DA71F18158E005B1E34 /* Wellness Monitor DEMO1Tests */,
+				BC609DB21F18158E005B1E34 /* Wellness Monitor DEMO1UITests */,
+				BC609D911F18158E005B1E34 /* Products */,
+				BC4396811F21423C0062040E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC609D911F18158E005B1E34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC609D901F18158E005B1E34 /* Wellness Monitor DEMO1.app */,
+				BC609DA41F18158E005B1E34 /* Wellness Monitor DEMO1Tests.xctest */,
+				BC609DAF1F18158E005B1E34 /* Wellness Monitor DEMO1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC609D921F18158E005B1E34 /* Wellness Monitor DEMO1 */ = {
+			isa = PBXGroup;
+			children = (
+				BC4396801F21418E0062040E /* Wellness Monitor DEMO1.entitlements */,
+				BC609D931F18158E005B1E34 /* AppDelegate.swift */,
+				BC609D951F18158E005B1E34 /* ViewController.swift */,
+				BC609DC11F181762005B1E34 /* PatientViewController.swift */,
+				BC43967E1F2110E80062040E /* DoctorViewController.swift */,
+				BC609D971F18158E005B1E34 /* Main.storyboard */,
+				BC64854B1F3A190900C3C4DB /* DrakeViewController.swift */,
+				BC4C040B1F336BF600CFC865 /* adminWelcomeViewController.swift */,
+				BC4C040D1F336E7B00CFC865 /* adminDetailViewController.swift */,
+				BC6485471F39FD9A00C3C4DB /* adminDetail2ViewController.swift */,
+				BC609D9A1F18158E005B1E34 /* Assets.xcassets */,
+				BC609D9C1F18158E005B1E34 /* LaunchScreen.storyboard */,
+				BC609D9F1F18158E005B1E34 /* Info.plist */,
+				BC6485491F3A00EB00C3C4DB /* DoctorDetailViewController.swift */,
+				BCD575501F3BA49B00BA62B2 /* DoctorDetail2ViewController.swift */,
+			);
+			path = "Wellness Monitor DEMO1";
+			sourceTree = "<group>";
+		};
+		BC609DA71F18158E005B1E34 /* Wellness Monitor DEMO1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC609DA81F18158E005B1E34 /* Wellness_Monitor_DEMO1Tests.swift */,
+				BC609DAA1F18158E005B1E34 /* Info.plist */,
+			);
+			path = "Wellness Monitor DEMO1Tests";
+			sourceTree = "<group>";
+		};
+		BC609DB21F18158E005B1E34 /* Wellness Monitor DEMO1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC609DB31F18158E005B1E34 /* Wellness_Monitor_DEMO1UITests.swift */,
+				BC609DB51F18158E005B1E34 /* Info.plist */,
+			);
+			path = "Wellness Monitor DEMO1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC609D8F1F18158E005B1E34 /* Wellness Monitor DEMO1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC609DB81F18158E005B1E34 /* Build configuration list for PBXNativeTarget "Wellness Monitor DEMO1" */;
+			buildPhases = (
+				BC609D8C1F18158E005B1E34 /* Sources */,
+				BC609D8D1F18158E005B1E34 /* Frameworks */,
+				BC609D8E1F18158E005B1E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wellness Monitor DEMO1";
+			productName = "Wellness Monitor DEMO1";
+			productReference = BC609D901F18158E005B1E34 /* Wellness Monitor DEMO1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC609DA31F18158E005B1E34 /* Wellness Monitor DEMO1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC609DBB1F18158E005B1E34 /* Build configuration list for PBXNativeTarget "Wellness Monitor DEMO1Tests" */;
+			buildPhases = (
+				BC609DA01F18158E005B1E34 /* Sources */,
+				BC609DA11F18158E005B1E34 /* Frameworks */,
+				BC609DA21F18158E005B1E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC609DA61F18158E005B1E34 /* PBXTargetDependency */,
+			);
+			name = "Wellness Monitor DEMO1Tests";
+			productName = "Wellness Monitor DEMO1Tests";
+			productReference = BC609DA41F18158E005B1E34 /* Wellness Monitor DEMO1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC609DAE1F18158E005B1E34 /* Wellness Monitor DEMO1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC609DBE1F18158E005B1E34 /* Build configuration list for PBXNativeTarget "Wellness Monitor DEMO1UITests" */;
+			buildPhases = (
+				BC609DAB1F18158E005B1E34 /* Sources */,
+				BC609DAC1F18158E005B1E34 /* Frameworks */,
+				BC609DAD1F18158E005B1E34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC609DB11F18158E005B1E34 /* PBXTargetDependency */,
+			);
+			name = "Wellness Monitor DEMO1UITests";
+			productName = "Wellness Monitor DEMO1UITests";
+			productReference = BC609DAF1F18158E005B1E34 /* Wellness Monitor DEMO1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC609D881F18158E005B1E34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Aolin Yang";
+				TargetAttributes = {
+					BC609D8F1F18158E005B1E34 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MQ79U7S5FQ;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 0;
+							};
+							com.apple.HomeKit = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.Siri = {
+								enabled = 0;
+							};
+						};
+					};
+					BC609DA31F18158E005B1E34 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC609D8F1F18158E005B1E34;
+					};
+					BC609DAE1F18158E005B1E34 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BC609D8F1F18158E005B1E34;
+					};
+				};
+			};
+			buildConfigurationList = BC609D8B1F18158E005B1E34 /* Build configuration list for PBXProject "Wellness Monitor DEMO1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC609D871F18158E005B1E34;
+			productRefGroup = BC609D911F18158E005B1E34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC609D8F1F18158E005B1E34 /* Wellness Monitor DEMO1 */,
+				BC609DA31F18158E005B1E34 /* Wellness Monitor DEMO1Tests */,
+				BC609DAE1F18158E005B1E34 /* Wellness Monitor DEMO1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC609D8E1F18158E005B1E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC609D9E1F18158E005B1E34 /* LaunchScreen.storyboard in Resources */,
+				BC609D9B1F18158E005B1E34 /* Assets.xcassets in Resources */,
+				BC609D991F18158E005B1E34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC609DA21F18158E005B1E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC609DAD1F18158E005B1E34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC609D8C1F18158E005B1E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC64854A1F3A00EB00C3C4DB /* DoctorDetailViewController.swift in Sources */,
+				BCD575511F3BA49B00BA62B2 /* DoctorDetail2ViewController.swift in Sources */,
+				BC6485481F39FD9A00C3C4DB /* adminDetail2ViewController.swift in Sources */,
+				BC609D961F18158E005B1E34 /* ViewController.swift in Sources */,
+				BC64854C1F3A190900C3C4DB /* DrakeViewController.swift in Sources */,
+				BC609D941F18158E005B1E34 /* AppDelegate.swift in Sources */,
+				BC609DC21F181762005B1E34 /* PatientViewController.swift in Sources */,
+				BC4C040C1F336BF600CFC865 /* adminWelcomeViewController.swift in Sources */,
+				BC43967F1F2110E80062040E /* DoctorViewController.swift in Sources */,
+				BC4C040E1F336E7B00CFC865 /* adminDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC609DA01F18158E005B1E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC609DA91F18158E005B1E34 /* Wellness_Monitor_DEMO1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC609DAB1F18158E005B1E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC609DB41F18158E005B1E34 /* Wellness_Monitor_DEMO1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC609DA61F18158E005B1E34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC609D8F1F18158E005B1E34 /* Wellness Monitor DEMO1 */;
+			targetProxy = BC609DA51F18158E005B1E34 /* PBXContainerItemProxy */;
+		};
+		BC609DB11F18158E005B1E34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC609D8F1F18158E005B1E34 /* Wellness Monitor DEMO1 */;
+			targetProxy = BC609DB01F18158E005B1E34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC609D971F18158E005B1E34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC609D981F18158E005B1E34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC609D9C1F18158E005B1E34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC609D9D1F18158E005B1E34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC609DB61F18158E005B1E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC609DB71F18158E005B1E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC609DB91F18158E005B1E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				INFOPLIST_FILE = "Wellness Monitor DEMO1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yangal.Wellness-Monitor-DEMO1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BC609DBA1F18158E005B1E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				INFOPLIST_FILE = "Wellness Monitor DEMO1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yangal.Wellness-Monitor-DEMO1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BC609DBC1F18158E005B1E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wellness Monitor DEMO1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yangal.Wellness-Monitor-DEMO1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wellness Monitor DEMO1.app/Wellness Monitor DEMO1";
+			};
+			name = Debug;
+		};
+		BC609DBD1F18158E005B1E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Wellness Monitor DEMO1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yangal.Wellness-Monitor-DEMO1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wellness Monitor DEMO1.app/Wellness Monitor DEMO1";
+			};
+			name = Release;
+		};
+		BC609DBF1F18158E005B1E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Wellness Monitor DEMO1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yangal.Wellness-Monitor-DEMO1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Wellness Monitor DEMO1";
+			};
+			name = Debug;
+		};
+		BC609DC01F18158E005B1E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Wellness Monitor DEMO1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yangal.Wellness-Monitor-DEMO1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Wellness Monitor DEMO1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC609D8B1F18158E005B1E34 /* Build configuration list for PBXProject "Wellness Monitor DEMO1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC609DB61F18158E005B1E34 /* Debug */,
+				BC609DB71F18158E005B1E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC609DB81F18158E005B1E34 /* Build configuration list for PBXNativeTarget "Wellness Monitor DEMO1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC609DB91F18158E005B1E34 /* Debug */,
+				BC609DBA1F18158E005B1E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC609DBB1F18158E005B1E34 /* Build configuration list for PBXNativeTarget "Wellness Monitor DEMO1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC609DBC1F18158E005B1E34 /* Debug */,
+				BC609DBD1F18158E005B1E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC609DBE1F18158E005B1E34 /* Build configuration list for PBXNativeTarget "Wellness Monitor DEMO1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC609DBF1F18158E005B1E34 /* Debug */,
+				BC609DC01F18158E005B1E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC609D881F18158E005B1E34 /* Project object */;
+}
